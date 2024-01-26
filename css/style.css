@@ -1,0 +1,34 @@
+@import "resets.css";
+@import "layout.css";
+
+#insert-map {
+    width: 100%;
+    height: 100vh;
+}
+#insert-weather {
+    top: 80px;
+}
+#location {
+    align-self: end;
+    font-size: 24px;
+}
+body {
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+.card {
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}

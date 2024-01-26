@@ -1,0 +1,5 @@
+(async () => {
+    //Main Method
+
+
+})();
